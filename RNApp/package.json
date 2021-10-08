@@ -1,0 +1,47 @@
+{
+  "name": "RNApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "clean": "cd android && ./gradlew clean && cd .."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-camera": "^4.1.1",
+    "react-native-copilot": "^2.5.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-permissions": "^3.0.5",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.5.0",
+    "react-native-shared-element": "^0.8.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-webview": "^11.13.0",
+    "react-native-youtube-iframe": "^2.1.2",
+    "react-navigation-shared-element": "^3.1.2",
+    "rn-floating-video-widget": "^0.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
